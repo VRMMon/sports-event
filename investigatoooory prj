@@ -575,6 +575,7 @@ outfile.close();
 break;
 default:
 cout << "INVALID";
+cout <<" NOT VALID";
 break;
 
 
@@ -840,6 +841,7 @@ outfile.close();
 break;
 default:
 cout << "INVALID";
+cout<<"NOT VALID";
 break;
 }
 else if (array[i][8] == "2003" || array[i][8] == "2004" || array[i][8] == "2005")
@@ -974,6 +976,11 @@ outfile.open("f_16_highjump.csv",
 
 outfile << chest_no << "," << "\n";
 outfile.close();
+outfile.open();
+cout<<"Bypass The Statement"<<endl;
+cin>>n;
+cin>>A;
+cout<<"the two students are"<<n<<A<<endl;
 
 break;
 
